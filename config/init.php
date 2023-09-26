@@ -8,5 +8,6 @@ define("CONFIG", ROOT . '/config');
 define("PATH", 'http://framework');
 define("DEBUG", true);
 define("LOGS", ROOT . '/tmp/logs');
+define("LAYOUT", 'simple');
 
 require_once ROOT . '/vendor/autoload.php';

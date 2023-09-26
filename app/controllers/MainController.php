@@ -2,10 +2,17 @@
 
 namespace app\controllers;
 
-class MainController
+use core\Controller;
+
+class MainController extends Controller
 {
     public function indexAction()
     {
-        echo 'Работает';
+        $this->setMeta('test', 'test', 'test');
+        $this->setData([
+            'name' => 'Alex',
+            'age' => 31
+        ]);
+        $this->getView();
     }
 }
