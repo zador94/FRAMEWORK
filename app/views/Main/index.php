@@ -1,2 +1,1 @@
-<h1>Ура!!! Вызывается вид </h1>
-<p>Привет <?=$name?>! Тебе <?=$age?> лет</p>
+<a type="button" class="btn btn-danger" href="users/show-all.php">Show all Users</a>

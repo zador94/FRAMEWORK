@@ -16,3 +16,4 @@ class MainController extends Controller
         $this->getView();
     }
 }
+

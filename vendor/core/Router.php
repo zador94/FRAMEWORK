@@ -24,13 +24,26 @@ class Router
 
     public static function dispatch($url)
     {
+        $params = [];
+        if (str_contains($url , '&') !== false) {
+            $params = explode('&', $url);
+            $url = $params[0];
+        }
         if (self::matchRoutes($url)) {
+            if (!empty($params)) {
+                for ($i = 1; $i < count($params); $i++) {
+                    $params = explode('=', $params[$i]);
+                    self::$currentRoute['get_params'][$params[0]] = $params[$i];
+                }
+            }
             $controller = 'app\controllers\\' . self::$currentRoute['controller'] . 'Controller';
             if (class_exists($controller)) {
                 $controllerObject = new $controller(self::$currentRoute);
                 $action = self::$currentRoute['action'] . 'Action';
                 if (method_exists($controllerObject, $action)) {
+                    $controllerObject->getModel();
                     $controllerObject->$action();
+                    $controllerObject->getView();
                 } else {
                     throw new \Exception("Метод {$controller}::{$action} не найден", 404);
                 }
@@ -41,6 +54,8 @@ class Router
             throw new \Exception('Страница не найдена', 404);
         }
     }
+
+
 
     public static function matchRoutes($url)
     {

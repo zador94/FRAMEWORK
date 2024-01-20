@@ -26,3 +26,73 @@
 
 [Tuesday 26th September 2023 03:41:43 PM]Ошибка Typed property core\Controller::$layout must not be accessed before initialization| Файл C:\OpenServer\domains\framework\vendor\core\Controller.php| Строка 29
 
+[Wednesday 27th September 2023 06:42:42 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 38
+
+[Wednesday 27th September 2023 06:43:34 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 38
+
+[Wednesday 27th September 2023 06:45:13 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 38
+
+[Wednesday 27th September 2023 06:45:25 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 38
+
+[Wednesday 27th September 2023 06:46:53 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 38
+
+[Wednesday 27th September 2023 06:49:06 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 06:49:08 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 06:51:00 PM]Ошибка Call to undefined method app\controllers\FormRegistrationController::setMeta()| Файл C:\OpenServer\domains\framework\app\controllers\FormRegistrationController.php| Строка 9
+
+[Wednesday 27th September 2023 06:54:07 PM]Ошибка Call to undefined method app\controllers\FormRegistrationController::setMeta()| Файл C:\OpenServer\domains\framework\app\controllers\FormRegistrationController.php| Строка 9
+
+[Wednesday 27th September 2023 07:02:55 PM]Ошибка Undefined array key "title"| Файл C:\OpenServer\domains\framework\vendor\core\View.php| Строка 68
+
+[Wednesday 27th September 2023 07:27:40 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:35:35 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:39:20 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:42:41 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:45:20 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:47:31 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:47:32 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 27th September 2023 07:47:34 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 41
+
+[Wednesday 11th October 2023 08:50:24 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 40
+
+[Wednesday 11th October 2023 08:51:10 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 40
+
+[Wednesday 11th October 2023 08:52:32 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 40
+
+[Wednesday 11th October 2023 08:53:50 PM]Ошибка Контроллер {$controller} не найден| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 40
+
+[Wednesday 11th October 2023 08:53:57 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 43
+
+[Wednesday 11th October 2023 08:53:59 PM]Ошибка Class "core\R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 11
+
+[Wednesday 11th October 2023 08:54:01 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 43
+
+[Wednesday 11th October 2023 08:54:37 PM]Ошибка Class "core\R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 11
+
+[Wednesday 11th October 2023 08:54:43 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 43
+
+[Wednesday 11th October 2023 08:54:46 PM]Ошибка Class "core\R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 11
+
+[Wednesday 11th October 2023 08:54:47 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 43
+
+[Wednesday 11th October 2023 08:55:04 PM]Ошибка Class "R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 14
+
+[Wednesday 11th October 2023 08:55:35 PM]Ошибка Class "R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 15
+
+[Wednesday 11th October 2023 08:56:09 PM]Ошибка Class "R" not found| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 14
+
+[Wednesday 11th October 2023 08:57:30 PM]Ошибка Class "R" not found| Файл C:\OpenServer\domains\framework\app\models\Users.php| Строка 11
+
+[Wednesday 11th October 2023 09:07:52 PM]Ошибка File connection to database| Файл C:\OpenServer\domains\framework\vendor\core\DataBaseConnection.php| Строка 15
+
+[Saturday 20th January 2024 09:30:02 PM]Ошибка Страница не найдена| Файл C:\OpenServer\domains\framework\vendor\core\Router.php| Строка 54
+
